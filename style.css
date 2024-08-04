@@ -1,37 +1,106 @@
 .section{
-    margin: 50px 200px;
-}
-
-.row{
-    padding: 10px;
+    margin: 50px auto;
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container{
-    width: 60%;
-    border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
+}
+
+.row{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.row h1{
+    text-align: center;
+    color: orangered;
+    font-size: 2.5em;
+}
+
+.row h3{
+    text-align: center;
+    color: orange;
+    font-size: 1.5em;
 }
 
 .password{
-    width: 100%;
-    border: 1px solid black;
-    padding: 10px;
-}
-
-h1,h3{
-    text-align: center;
+    padding: 20px;
+    background-color: hwb(0 98% 2%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .box{
-    width: 50%;
-    border: 1px solid black;
-    padding: 10px;
+    width: 100%;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box span{
+    font-size: 1.2em;
+    color: orange;
+}
+
+.box i{
+    cursor: pointer;
+    color: rgb(255, 127, 80);
+    transition: color 0.3s ease;
+}
+
+.box i:hover{
+    color: rgb(255, 69, 0);
 }
 
 .block{
-    margin: 20px;
-    border: 1px solid black;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-weight: bold;
+    color: orangered;
+    margin-left: 10px;
+}
+
+#length{
     padding: 10px;
+    border-radius:10px ;
+    border: none;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"], input[type="checkbox"]{
+    margin-right: 10px;
+    color: rgb(255, 127, 80);
+}
+
+.butt{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(255, 127, 80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.butt:hover{
+    background-color: rgb(255, 69, 0);
 }
