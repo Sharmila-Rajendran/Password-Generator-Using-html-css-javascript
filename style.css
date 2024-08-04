@@ -1,0 +1,37 @@
+.section{
+    margin: 50px 200px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.container{
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.password{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+.box{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
